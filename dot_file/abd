@@ -1,0 +1,7 @@
+graph G {
+	3 [label="荣昌" fontname=FangSong]
+	6 [label="永川" fontname=FangSong]
+	20 [label="白沙" fontname=FangSong]
+	3 -- 6 [color=green]
+	6 -- 20 [color=green]
+}

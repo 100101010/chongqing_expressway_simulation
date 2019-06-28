@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ClionCode"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Qt\;CMake Files\Qt\Qt5.7.1\;CMake Files\Qt\Qt5.7.1\5.7\;CMake Files\Qt\Qt5.7.1\5.7\mingw53_32\;CMake Files\Qt\Qt5.7.1\5.7\mingw53_32\lib\;CMake Files\Qt\Qt5.7.1\5.7\mingw53_32\lib\cmake\;CMake Files\Qt\Qt5.7.1\5.7\mingw53_32\lib\cmake\Qt5Widgets\;CMake Files\Qt\Qt5.7.1\5.7\mingw53_32\lib\cmake\Qt5Gui\;CMake Files\Qt\Qt5.7.1\5.7\mingw53_32\lib\cmake\Qt5Core\;CMake Files\Qt\Qt5.7.1\5.7\mingw53_32\lib\cmake\Qt5Xml\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="F:/ClionCode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.7.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;F:/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Qt/Qt5.7.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;F:/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.7.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;F:/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.7.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;F:/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ClionCode">
+				<Option output="F:/ClionCode/cmake-build-debug/ClionCode.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/ClionCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_XML_LIB"/>
+					<Add directory="F:/ClionCode/cmake-build-debug"/>
+					<Add directory="F:/ClionCode"/>
+					<Add directory="F:/ClionCode/cmake-build-debug/ClionCode_autogen/include"/>
+					<Add directory="C:/Qt/Qt5.7.1/5.7/mingw53_32/include"/>
+					<Add directory="C:/Qt/Qt5.7.1/5.7/mingw53_32/include/QtCore"/>
+					<Add directory="C:/Qt/Qt5.7.1/5.7/mingw53_32/./mkspecs/win32-g++"/>
+					<Add directory="C:/Qt/Qt5.7.1/5.7/mingw53_32/include/QtWidgets"/>
+					<Add directory="C:/Qt/Qt5.7.1/5.7/mingw53_32/include/QtGui"/>
+					<Add directory="C:/Qt/Qt5.7.1/5.7/mingw53_32/include/QtXml"/>
+					<Add directory="C:/Qt/Qt5.7.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.7.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.7.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="C:/Qt/Qt5.7.1/Tools/mingw530_32/lib/gcc/../../i686-w64-mingw32/include/c++"/>
+					<Add directory="C:/Qt/Qt5.7.1/Tools/mingw530_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Qt/Qt5.7.1/Tools/mingw530_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.7.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;F:/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 ClionCode"/>
+					<CompileFile command="C:/Qt/Qt5.7.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;F:/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.7.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;F:/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.7.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;F:/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ClionCode/fast">
+				<Option output="F:/ClionCode/cmake-build-debug/ClionCode.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/ClionCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_XML_LIB"/>
+					<Add directory="F:/ClionCode/cmake-build-debug"/>
+					<Add directory="F:/ClionCode"/>
+					<Add directory="F:/ClionCode/cmake-build-debug/ClionCode_autogen/include"/>
+					<Add directory="C:/Qt/Qt5.7.1/5.7/mingw53_32/include"/>
+					<Add directory="C:/Qt/Qt5.7.1/5.7/mingw53_32/include/QtCore"/>
+					<Add directory="C:/Qt/Qt5.7.1/5.7/mingw53_32/./mkspecs/win32-g++"/>
+					<Add directory="C:/Qt/Qt5.7.1/5.7/mingw53_32/include/QtWidgets"/>
+					<Add directory="C:/Qt/Qt5.7.1/5.7/mingw53_32/include/QtGui"/>
+					<Add directory="C:/Qt/Qt5.7.1/5.7/mingw53_32/include/QtXml"/>
+					<Add directory="C:/Qt/Qt5.7.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.7.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.7.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="C:/Qt/Qt5.7.1/Tools/mingw530_32/lib/gcc/../../i686-w64-mingw32/include/c++"/>
+					<Add directory="C:/Qt/Qt5.7.1/Tools/mingw530_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Qt/Qt5.7.1/Tools/mingw530_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.7.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;F:/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 ClionCode/fast"/>
+					<CompileFile command="C:/Qt/Qt5.7.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;F:/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.7.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;F:/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.7.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;F:/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="F:/ClionCode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.7.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;F:/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Qt/Qt5.7.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;F:/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.7.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;F:/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.7.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;F:/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="F:/ClionCode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.7.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;F:/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Qt/Qt5.7.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;F:/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.7.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;F:/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.7.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;F:/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ClionCode_autogen">
+				<Option working_dir="F:/ClionCode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.7.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;F:/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 ClionCode_autogen"/>
+					<CompileFile command="C:/Qt/Qt5.7.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;F:/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.7.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;F:/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.7.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;F:/ClionCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="F:/ClionCode/CountSelect.cpp">
+			<Option target="ClionCode"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/CountSelect.h">
+			<Option target="ClionCode"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/Utils/AVLTree.hpp">
+			<Option target="ClionCode"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/Utils/MinHeap.hpp">
+			<Option target="ClionCode"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/Utils/Vector.hpp">
+			<Option target="ClionCode"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/Utils/drawImagePy.cpp">
+			<Option target="ClionCode"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/Utils/drawImagePy.hpp">
+			<Option target="ClionCode"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/Utils/optimizeHelp.hpp">
+			<Option target="ClionCode"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/Utils/otherUsefulUtility.cpp">
+			<Option target="ClionCode"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/Utils/otherUsefulUtility.hpp">
+			<Option target="ClionCode"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/algorithms/binarySearch.cpp">
+			<Option target="ClionCode"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/algorithms/binarySearch.hpp">
+			<Option target="ClionCode"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/algorithms/dijkstra.cpp">
+			<Option target="ClionCode"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/algorithms/dijkstra.hpp">
+			<Option target="ClionCode"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/algorithms/dijkstraByAVL.cpp">
+			<Option target="ClionCode"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/algorithms/dijkstraByAVL.hpp">
+			<Option target="ClionCode"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/algorithms/dijkstraByMinHeap.cpp">
+			<Option target="ClionCode"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/algorithms/dijkstraByMinHeap.hpp">
+			<Option target="ClionCode"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/algorithms/dijkstraByQuickSort.cpp">
+			<Option target="ClionCode"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/algorithms/dijkstraByQuickSort.hpp">
+			<Option target="ClionCode"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/algorithms/quickSort.cpp">
+			<Option target="ClionCode"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/algorithms/quickSort.hpp">
+			<Option target="ClionCode"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/cmake-build-debug/ClionCode_autogen/mocs_compilation.cpp">
+			<Option target="ClionCode"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/initData.cpp">
+			<Option target="ClionCode"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/initData.hpp">
+			<Option target="ClionCode"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/main.cpp">
+			<Option target="ClionCode"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/mainwindow.cpp">
+			<Option target="ClionCode"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/mainwindow.h">
+			<Option target="ClionCode"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/randomSelect.cpp">
+			<Option target="ClionCode"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/randomSelect.h">
+			<Option target="ClionCode"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/Qt/Qt5.7.1/5.7/mingw53_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.7.1\5.7\mingw53_32\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/Qt/Qt5.7.1/5.7/mingw53_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.7.1\5.7\mingw53_32\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/Qt/Qt5.7.1/5.7/mingw53_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.7.1\5.7\mingw53_32\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/Qt/Qt5.7.1/5.7/mingw53_32/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.7.1\5.7\mingw53_32\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/Qt/Qt5.7.1/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.7.1\5.7\mingw53_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/Qt/Qt5.7.1/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.7.1\5.7\mingw53_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/Qt/Qt5.7.1/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.7.1\5.7\mingw53_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/Qt/Qt5.7.1/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5Gui_QDDSPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.7.1\5.7\mingw53_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/Qt/Qt5.7.1/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.7.1\5.7\mingw53_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/Qt/Qt5.7.1/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.7.1\5.7\mingw53_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/Qt/Qt5.7.1/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.7.1\5.7\mingw53_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/Qt/Qt5.7.1/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.7.1\5.7\mingw53_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/Qt/Qt5.7.1/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.7.1\5.7\mingw53_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/Qt/Qt5.7.1/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.7.1\5.7\mingw53_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/Qt/Qt5.7.1/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.7.1\5.7\mingw53_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/Qt/Qt5.7.1/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.7.1\5.7\mingw53_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/Qt/Qt5.7.1/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.7.1\5.7\mingw53_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/Qt/Qt5.7.1/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.7.1\5.7\mingw53_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/Qt/Qt5.7.1/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.7.1\5.7\mingw53_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/Qt/Qt5.7.1/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.7.1\5.7\mingw53_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/Qt/Qt5.7.1/5.7/mingw53_32/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.7.1\5.7\mingw53_32\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/Qt/Qt5.7.1/5.7/mingw53_32/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.7.1\5.7\mingw53_32\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/Qt/Qt5.7.1/5.7/mingw53_32/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.7.1\5.7\mingw53_32\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/Qt/Qt5.7.1/5.7/mingw53_32/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.7.1\5.7\mingw53_32\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/Qt/Qt5.7.1/5.7/mingw53_32/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.7.1\5.7\mingw53_32\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/Qt/Qt5.7.1/5.7/mingw53_32/lib/cmake/Qt5Xml/Qt5XmlConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.7.1\5.7\mingw53_32\lib\cmake\Qt5Xml\"/>
+		</Unit>
+		<Unit filename="F:/ClionCode/Qt/Qt5.7.1/5.7/mingw53_32/lib/cmake/Qt5Xml/Qt5XmlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.7.1\5.7\mingw53_32\lib\cmake\Qt5Xml\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

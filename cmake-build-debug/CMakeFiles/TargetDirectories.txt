@@ -1,0 +1,4 @@
+F:/ClionCode/cmake-build-debug/CMakeFiles/ClionCode.dir
+F:/ClionCode/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/ClionCode/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+F:/ClionCode/cmake-build-debug/CMakeFiles/ClionCode_autogen.dir
