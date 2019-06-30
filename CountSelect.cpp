@@ -13,8 +13,13 @@ Dialog::Dialog(QWidget *parent) :
         ui(new Ui::Dialog)
 {
     ui->setupUi(this);
-    for(auto item:Nodes)
-        ui->comboBox->addItem(GBKToUTF8(item.c_str()).c_str());
+    for (int i = 0; i < Nodes.size(); ++i) {
+        auto item = Nodes[i];
+        if (!judge(i+1) && !judgePre(i+1))
+            ui->comboBox->addItem(GBKToUTF8(item.c_str()).c_str());
+    }
+//    for(auto item:Nodes)
+//        ui->comboBox->addItem(GBKToUTF8(item.c_str()).c_str());
     this->setWindowTitle("选择预警信息");
 }
 

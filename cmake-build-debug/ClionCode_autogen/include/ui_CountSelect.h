@@ -76,7 +76,6 @@ public:
          << QApplication::translate("Dialog", "\350\257\267\351\200\211\346\213\251\351\242\204\350\255\246\347\272\247\345\210\253", Q_NULLPTR)
          << QApplication::translate("Dialog", "1", Q_NULLPTR)
          << QApplication::translate("Dialog", "2", Q_NULLPTR)
-         << QApplication::translate("Dialog", "3", Q_NULLPTR)
         );
         pushButton->setText(QApplication::translate("Dialog", "\347\241\256\345\256\232", Q_NULLPTR));
         pushButton_2->setText(QApplication::translate("Dialog", "\345\217\226\346\266\210", Q_NULLPTR));

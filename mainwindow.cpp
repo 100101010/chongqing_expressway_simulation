@@ -51,7 +51,6 @@ void MainWindow::CountShow() {
 void MainWindow::RandomShow() {
     dlg2 = new Dialog2();
     connect(dlg2,SIGNAL(dialog_send_a_signal2(QString)),this,SLOT(mainwindow_receive_a_signal2(QString)));
-    dlg2->randomGenerateNode();
     dlg2->exec();
 }
 
@@ -91,13 +90,17 @@ void MainWindow::handleInfo(QString dia_to_main_msg) {
 //    std::cout<<num1<<std::endl;
 
 //    找到最近救援结点
+    Util::Vector<Util::Vector<int>> tempV;
+    tempV.push_back(rescueNodes);
+    tempV.push_back(preRescueNodes);
     int minx = INFF, index = 0;
-    for (int i = 0; i < rescueNodes.size(); ++i) {
-        if (dist[rescueNodes[i]]<minx){
-            minx = dist[rescueNodes[i]];
-            index = rescueNodes[i];
+    for (int i = 0; i < tempV[num-1].size(); ++i) {
+        if (dist[tempV[num-1][i]]<minx){
+            minx = dist[tempV[num-1][i]];
+            index = tempV[num-1][i];
         }
     }
+
 //    输出最近结点标号
 //    std::cout<<index<<std::endl;
 

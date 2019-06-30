@@ -22,6 +22,7 @@ Dialog2::Dialog2(QWidget *parent) :
     ui->lineEdit->setEnabled(false);
     ui->lineEdit_2->setEnabled(false);
     this->setWindowTitle("随机预警生成");
+    randomGenerateNode();
 }
 
 Dialog2::~Dialog2()
@@ -32,8 +33,11 @@ Dialog2::~Dialog2()
 void Dialog2::randomGenerateNode() {
     std::default_random_engine engine(time(nullptr));
     std::uniform_int_distribution<unsigned> u(1, 100000);
-    int randomNumber1 = u(engine)%countNodes+1;
-    int randomNumber2 = u(engine)%3+1;
+    int randomNumber1;
+    do{
+        randomNumber1 = u(engine)%countNodes+1;
+    }while (!judge(randomNumber1) && !judgePre(randomNumber1));
+    int randomNumber2 = u(engine)%2+1;
     std::string tem = GBKToUTF8(Nodes[randomNumber1].c_str());
     ui->lineEdit->setText(tem.c_str());
     ui->lineEdit_2->setText(std::to_string(randomNumber2).c_str());
